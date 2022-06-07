@@ -1,3 +1,63 @@
+/*
+
+0       0       0       1
+0       0       1       0
+0       1       0       0
+style   id      class   element
+
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
 h1{
     color:red;
+    font-weight:normal;
 }
+
+.my_names{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.my_name{
+    color:#cecece;
+    text-align:center;
+    width:150px;
+    /* height:150px; */
+
+    border:3px solid red;
+    padding-top:30px;
+    padding-right:10px;
+    padding-left:30px;
+    padding-bottom:70px;
+    margin:30px 10px 70px 30px;
+}
+
+.my_first_name{
+    color:green;
+    font-weight:bold;
+}
+
+.image_block{
+    position: relative;
+}
+
+.image{
+    width:300px;
+    height:300px;
+    position:absolute;
+    left:20px;
+    top:20px;
+    right:auto;
+    bottom:auto;
+    z-index:1;
+}
+
+.my_jobs{
+    position:relative;
+    z-index:2;
+}
+
