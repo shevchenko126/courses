@@ -1,0 +1,28 @@
+<?xml version="1.0"?><svg width="535" height="531" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>nxt_checkbox_checked_not_ok</title>
+ <defs>
+  <linearGradient id="linearGradient3996">
+   <stop stop-color="#b8b8b8" id="stop3998" offset="0"/>
+   <stop stop-color="#b8b8b8" stop-opacity="0" id="stop4000" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="1498.8496" x2="-727.92688" y1="1498.8496" x1="-481.63879" gradientTransform="matrix(0.97994177,0,0,1.5038759,-12.092225,-449.52009)" gradientUnits="userSpaceOnUse" id="linearGradient4027" xlink:href="#linearGradient3996"/>
+  <linearGradient y2="1498.8496" x2="-727.92688" y1="1498.8496" x1="-481.63879" gradientTransform="matrix(1.1726642,0,0,1.2567202,-14.470369,-375.64336)" gradientUnits="userSpaceOnUse" id="linearGradient4057" xlink:href="#linearGradient3996"/>
+  <pattern height="100" width="100" y="0" x="0" patternUnits="userSpaceOnUse" id="gridpattern">
+   <image height="100" width="100" y="0" x="0"/>
+  </pattern>
+  <symbol width="320" id="svg_4" height="320">
+
+   <g id="svg_2">
+    <path fill="#0e0" fill-rule="evenodd" stroke-width="0.25pt" id="svg_3" d="m20,200l100,90l180,-180l-35,-35l-145,145l-60,-60l-40,40z"/>
+   </g>
+  </symbol>
+ </defs>
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer2">
+   <path fill="none" stroke="#000000" stroke-width="55" stroke-linejoin="round" stroke-miterlimit="4" d="m146.32692,35.025715l244.661789,0c59.216797,0 106.889587,43.416195 106.889587,97.345806l0,263.749268c0,53.929535 -47.672791,97.345764 -106.889587,97.345764l-244.661789,0c-59.216812,0 -106.88958,-43.416229 -106.88958,-97.345764l0,-263.749268c0,-53.929611 47.672768,-97.345806 106.88958,-97.345806z" id="rect2816"/>
+  </g>
+  <use x="104.80185" y="535.339816" transform="matrix(1.43701 0 0 1.75587 -112.523 -996.765)" xlink:href="#svg_4" id="svg_5"/>
+ </g>
+</svg>

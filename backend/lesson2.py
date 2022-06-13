@@ -223,3 +223,9 @@ transactions_homework = [
         ]
     },
 ]
+
+total_am = 0
+for transaction in transactions_homework:
+    if transaction["add"] and "Хлеб" in transaction["products"]:
+        total_am += transaction["amount"]
+print( total_am )
