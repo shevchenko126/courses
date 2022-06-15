@@ -18,7 +18,6 @@ if e == "I`m e":
 else:
     print('e is not e')
 
-
 if e == "I`m e":
     print('e is e')
 elif e == "I`m e 1":
@@ -26,10 +25,8 @@ elif e == "I`m e 1":
 else:
     print('e not e')
 
-
 for a in g:
     print(a)
-
 
 text_list = [2, 4, 6, 8, 10, 12]
 
@@ -48,7 +45,6 @@ print(total_sum)
 f = True
 f = False
 print(f)
-
 
 i = 0
 while i < 10:
@@ -142,7 +138,6 @@ for transaction in transactions.values():
     if transaction['add'] and "male" in transaction["person"].keys():
         total_amount += transaction["sum"]
 print(total_amount)
-
 
 
 # Добавить сумму транзакции, если add = True и среди продуктов есть "Хлеб"
