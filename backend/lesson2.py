@@ -18,7 +18,6 @@ if e == "I`m e":
 else:
     print('e is not e')
 
-
 if e == "I`m e":
     print('e is e')
 elif e == "I`m e 1":
@@ -26,10 +25,8 @@ elif e == "I`m e 1":
 else:
     print('e not e')
 
-
 for a in g:
     print(a)
-
 
 text_list = [2, 4, 6, 8, 10, 12]
 
