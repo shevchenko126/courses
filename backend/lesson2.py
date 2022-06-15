@@ -49,7 +49,6 @@ f = True
 f = False
 print(f)
 
-
 i = 0
 while i < 10:
     if i == 2:
