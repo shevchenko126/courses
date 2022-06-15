@@ -179,3 +179,69 @@ h1{
 .checkbox:checked + .checkbox_image{
     background-image: url(../images/checkbox-ok.svg);
 }
+
+.radio:checked + .checkbox_image{
+    background-image: url(../images/checkbox-ok.svg);
+}
+
+.link{
+    display: block;
+    padding:10px 0;
+    position: relative;
+    width:100%;
+
+}
+
+.link:hover{
+    width:50%;
+
+    transition: all 1s linear 0.2s;
+    -moz-transition: all 1s linear 0.2s;
+    -ms-transition: all 1s linear 0.2s;
+    -webkit-transition: all 1s linear 0.2s;
+    -o-transition: all 1s linear 0.2s;
+
+}
+
+/* .link:before{
+    content:"ss"
+} */
+
+.link:before{
+    content:"";
+    position:absolute;
+    top:0;
+    right:20px;
+    background-image:url('../images/arrow.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:40px;
+    height:40px;
+
+    transform: scale(0.5, 1);
+}
+
+.link:after{
+    content:"";
+    position:absolute;
+    top:0;
+    right:200px;
+    background-image:url('../images/arrow.png');
+    background-size:auto;
+    background-position: 10px 20px;
+    background-repeat: no-repeat;
+    width:40px;
+    height:40px;
+
+    -moz-transform: rotate(45deg); /* Для Firefox */
+    -ms-transform: rotate(45deg); /* Для IE */
+    -webkit-transform: rotate(45deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(45deg); /* Для Opera */
+    transform: rotate(45deg);
+}
+
+.section1{
+    background-color: pink;
+    display: flex;
+}
