@@ -140,7 +140,6 @@ for transaction in transactions.values():
 print(total_amount)
 
 
-
 # Добавить сумму транзакции, если add = True и среди продуктов есть "Хлеб"
 # Должно выйти 172
 transactions_homework = [
