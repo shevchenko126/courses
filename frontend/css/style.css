@@ -7,6 +7,7 @@ style   id      class   element
 
 */
 
+
 @font-face {
     font-family: "Roboto 1";
     src: url('../fonts/Roboto/Roboto-Thin.ttf');
@@ -245,3 +246,62 @@ h1{
     background-color: pink;
     display: flex;
 }
+
+.color{
+    background-color: green;
+    width:100%;
+    height:400px;
+}
+
+
+.test-vw{
+    background-color: orange;
+    width:100vw;
+    height:100vh;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: red;
+}
+
+
+
+@media (max-width:756px) and (min-width:350px) {
+    .section1{
+        background-color: blue;
+    }
+
+    .my_names {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-height:450px) and (min-height:350px) {
+    .section1{
+        background-color: green;
+    }
+}
+
+@media (orientation: landscape) { /*portrait*/
+    .section1{
+        background-color: orange;
+    }
+}
+
+@media (max-width:750px) {
+    .my_name{
+        background-color:pink;
+    }
+
+    .test-vw{
+        width:50vw;
+    }
+}
+
+@media (max-width:350px) {
+    .my_name{
+        background-color:red;
+    }
+}
+
+
