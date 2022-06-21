@@ -1,0 +1,86 @@
+body{
+    font-size:16px;
+    font-family: "Jost";
+}
+
+header{
+    padding:20px 0;
+    border-bottom:1px solid #E7E7EC;
+}
+
+.button{
+    color:#fff;
+    background-color: #090761;
+    padding:13px 30px;
+    border-radius: 4px;
+}
+
+.courses-button{
+    background-image: url('../images/courses_menu.svg');
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    padding-left:60px;
+    margin:0 20px;
+}
+
+.header__search-input{
+    height:50px;
+    background-image: url('../images/search.svg');
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    padding:15px 15px 15px 55px;
+    
+}
+
+
+.main-menu__item{
+    padding:10px 30px;
+}
+
+.main-menu__link{
+    color:#77838F;
+    font-weight:500;
+    text-decoration: none;
+
+    position: relative;
+}
+
+.main-menu__link.active,
+.main-menu__link:hover{
+    color:#2F2D51;
+}
+
+.main-menu__link.has-child:after{
+    content: "";
+    background-image: url('../images/menu_arrow.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+
+    width:10px;
+    height:10px;
+
+    position:absolute;
+    right:-15px;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+}
+
+
+
+.header__right-button__count{
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    font-weight:700;
+    color:#fff;
+    background: #090761;
+    border-radius: 50%;
+
+    width:16px;
+    height:16px;
+    font-size:12px;
+    line-height:1;
+    padding:2px;
+    text-align: center;
+}
