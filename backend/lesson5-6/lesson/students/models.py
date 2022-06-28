@@ -38,7 +38,7 @@ class Student(models.Model):
     group = models.ForeignKey(StudentGroup, verbose_name="Группа",
                                     on_delete=models.SET_NULL,
                                     null=True,
-                                    related_name="students",
+                                    related_name="ddddd",
                                     blank=True)
 
     def __str__(self):

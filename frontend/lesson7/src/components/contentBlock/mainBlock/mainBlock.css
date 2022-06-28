@@ -1,0 +1,12 @@
+.main-block{
+    padding:50px;
+    background:yellow;
+}
+
+.main-block.red{
+    background:red;
+}
+
+.d-none{
+    display:none;
+}

@@ -2,18 +2,33 @@ import logo from './logo.svg';
 import './App.css';
 import {courseObject,plusTwo} from './data/course'
 import Header from './components/Header'
+import MainBlock from './components/contentBlock/mainBlock'
 
 const App = () => {
 
   const { courseName, courseTeacher } = courseObject
 
-  const number = 4
+  const number = 2
   console.log( plusTwo(number) )
+  
+  const clickButtonFunction = () => {
+    console.log('ssssssssssss')
+  }
 
   return (
 
     <div className="App">
       <Header />
+      { number > 3 ? (
+          <div>
+            sssss
+          </div>
+        ) : (
+          <MainBlock clickButtonFunction={clickButtonFunction} content="Hello World!" number={number} display={true} color="green" />
+        )
+      }
+      
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

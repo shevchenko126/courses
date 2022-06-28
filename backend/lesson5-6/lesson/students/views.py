@@ -29,20 +29,21 @@ class MyView(View):
         name = request.POST.get('name', '')
 
         print(name)
+        print(request.__dict__)
         return HttpResponse(name)
 
 
 
 
-class MyView(View):
-    def get(self, request, pk):
+# class MyView(View):
+#     def get(self, request, pk):
 
-        try:
-            student = Student.objects.get(pk=pk)
-            students_data = {
-                "name":student.name
-            }
-        except Student.DoesNotExist:
-            students_data = {}
+#         try:
+#             student = Student.objects.get(pk=pk)
+#             students_data = {
+#                 "name":student.name
+#             }
+#         except Student.DoesNotExist:
+#             students_data = {}
         
-        return JsonResponse({"data":students_data})
+#         return JsonResponse({"data":students_data})
