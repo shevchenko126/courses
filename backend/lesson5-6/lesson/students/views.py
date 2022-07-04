@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
 from django.views import View
 from students.models import Student
@@ -10,10 +10,10 @@ def my_view(request):
 
 
 class MyView(View):
-    def get(self, request, id):
+    def get(self, request):
 
         name = request.GET.get('name', False)
-        print(id)
+        # print(id)
         students = Student.objects.all()
         if name:
             students = students.filter(name=name)
@@ -23,7 +23,11 @@ class MyView(View):
             students_data.append({
                 "name":student.name
             })
-        return JsonResponse({"data":students_data})
+
+        # return redirect('https://google.com')
+
+        return render(request, 'students/students.html', {"students":students_data, "show":False })
+        # return JsonResponse({"data":students_data})
 
     def post(self, request):
         name = request.POST.get('name', '')

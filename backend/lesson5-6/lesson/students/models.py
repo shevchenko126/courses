@@ -1,6 +1,5 @@
 from django.db import models
 
-
 class StudentGroup(models.Model):
     name = models.CharField(verbose_name="Имя", max_length=100)
     students_number = models.DecimalField(max_digits=4, decimal_places=0,
