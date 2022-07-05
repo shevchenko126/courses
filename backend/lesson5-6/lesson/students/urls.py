@@ -6,11 +6,16 @@ from students.api import GetStudents
 
 
 router = routers.DefaultRouter()
-router.register('api', GetStudents, 'api')
+router.register('api', GetStudents, 'students-api')
 
-
-urlpatterns = router.urls + [
-    path('view1/', MyView.as_view()),
-    path('view2/<pk>/', MyView.as_view()),
-    path('view3/', MyView.as_view(), 'view3'),
-]
+urlpatterns = router.urls
+# urlpatterns = router.urls + [
+#     path('view1/', MyView.as_view()),
+#     path('view2/<pk>/', MyView.as_view()),
+#     path('view3/', MyView.as_view(), 'view3'),
+# ]
+# urlpatterns = [
+#     # path('view1/', MyView.as_view()),
+#     # path('view2/<pk>/', MyView.as_view()),
+#     path('view3/', MyView.as_view(), 'view3'),
+# ]
